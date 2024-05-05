@@ -8,7 +8,7 @@ public class NavController {
 	@GetMapping("/login")
 	public String login()
 	{
-		return "login";
+		
 	}
 	@GetMapping("/registration")
 	public String registration()
