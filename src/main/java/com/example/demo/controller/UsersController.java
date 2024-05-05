@@ -67,6 +67,6 @@ public class UsersController {
 	public String logout(HttpSession session)
 	{
 		session.invalidate();
-		
+		return "login";
 	}
 }
