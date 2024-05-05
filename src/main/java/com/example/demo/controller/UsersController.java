@@ -59,7 +59,7 @@ public class UsersController {
 		}
 		else
 		{
-			return "login";
+			
 		}
 	}
 
@@ -67,6 +67,6 @@ public class UsersController {
 	public String logout(HttpSession session)
 	{
 		session.invalidate();
-		return "login";
+		
 	}
 }
