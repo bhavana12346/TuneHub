@@ -17,11 +17,7 @@ import com.example.demo.services.SongService;
 
 @Controller
 public class PlaylistController {
-	@Autowired
-	SongService songService;
-	@Autowired
-	PlaylistService playlistService;
-	@GetMapping("/createPlaylist")
+	
 	public String createPlaylist(Model model)
 	{
 		List<Song> songList=songService.fetchAllSongs();
